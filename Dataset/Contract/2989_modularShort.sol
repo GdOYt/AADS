@@ -1,0 +1,1 @@
+contract modularShort is HXevents {}

@@ -1,0 +1,36 @@
+contract IxPaymentsIface is hasVersion, ixPaymentEvents, permissioned, CanReclaimToken, payoutAllCSettable {
+    function emergencySetOwner(address newOwner) external;
+    function weiBuysHowManySeconds(uint amount) public view returns (uint secs);
+    function weiToCents(uint w) public view returns (uint);
+    function centsToWei(uint c) public view returns (uint);
+    function payForDemocracy(bytes32 democHash) external payable;
+    function doFreeExtension(bytes32 democHash) external;
+    function downgradeToBasic(bytes32 democHash) external;
+    function upgradeToPremium(bytes32 democHash) external;
+    function accountInGoodStanding(bytes32 democHash) external view returns (bool);
+    function getSecondsRemaining(bytes32 democHash) external view returns (uint);
+    function getPremiumStatus(bytes32 democHash) external view returns (bool);
+    function getFreeExtension(bytes32 democHash) external view returns (bool);
+    function getAccount(bytes32 democHash) external view returns (bool isPremium, uint lastPaymentTs, uint paidUpTill, bool hasFreeExtension);
+    function getDenyPremium(bytes32 democHash) external view returns (bool);
+    function giveTimeToDemoc(bytes32 democHash, uint additionalSeconds, bytes32 ref) external;
+    function setPayTo(address) external;
+    function setMinorEditsAddr(address) external;
+    function setBasicCentsPricePer30Days(uint amount) external;
+    function setBasicBallotsPer30Days(uint amount) external;
+    function setPremiumMultiplier(uint8 amount) external;
+    function setWeiPerCent(uint) external;
+    function setFreeExtension(bytes32 democHash, bool hasFreeExt) external;
+    function setDenyPremium(bytes32 democHash, bool isPremiumDenied) external;
+    function setMinWeiForDInit(uint amount) external;
+    function getBasicCentsPricePer30Days() external view returns(uint);
+    function getBasicExtraBallotFeeWei() external view returns (uint);
+    function getBasicBallotsPer30Days() external view returns (uint);
+    function getPremiumMultiplier() external view returns (uint8);
+    function getPremiumCentsPricePer30Days() external view returns (uint);
+    function getWeiPerCent() external view returns (uint weiPerCent);
+    function getUsdEthExchangeRate() external view returns (uint centsPerEth);
+    function getMinWeiForDInit() external view returns (uint);
+    function getPaymentLogN() external view returns (uint);
+    function getPaymentLog(uint n) external view returns (bool _external, bytes32 _democHash, uint _seconds, uint _ethValue);
+}

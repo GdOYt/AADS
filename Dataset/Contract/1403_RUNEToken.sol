@@ -1,0 +1,1 @@
+contract RUNEToken is SafeMath

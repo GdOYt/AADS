@@ -1,0 +1,1 @@
+contract BlockFollowMainStageCrowdsale is StageCrowdsale, CappedStageCrowdsale, LimitedMinPurchaseCrowdsale,

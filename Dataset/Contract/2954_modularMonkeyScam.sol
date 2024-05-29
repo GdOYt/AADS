@@ -1,0 +1,1 @@
+contract modularMonkeyScam is MonkeyEvents {}

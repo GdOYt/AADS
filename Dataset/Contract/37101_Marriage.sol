@@ -1,0 +1,1 @@
+contract Marriage is Owned

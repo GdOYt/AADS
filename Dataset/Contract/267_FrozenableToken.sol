@@ -1,0 +1,1 @@
+contract FrozenableToken is PausableToken

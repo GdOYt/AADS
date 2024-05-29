@@ -1,0 +1,1 @@
+contract IxIface is hasVersion,

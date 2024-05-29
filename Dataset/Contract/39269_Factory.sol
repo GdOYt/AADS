@@ -1,0 +1,1 @@
+contract Factory is RegBase

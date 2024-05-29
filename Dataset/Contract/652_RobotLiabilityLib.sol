@@ -1,0 +1,1 @@
+contract RobotLiabilityLib is RobotLiabilityABI

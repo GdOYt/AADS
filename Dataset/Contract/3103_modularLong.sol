@@ -1,0 +1,1 @@
+contract modularLong is ONEevents {}

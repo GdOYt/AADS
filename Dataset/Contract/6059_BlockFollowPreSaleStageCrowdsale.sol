@@ -1,0 +1,1 @@
+contract BlockFollowPreSaleStageCrowdsale is StageCrowdsale, CappedStageCrowdsale, TokensRollStageCrowdsale,

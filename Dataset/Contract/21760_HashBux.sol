@@ -1,0 +1,1 @@
+contract HashBux is owned

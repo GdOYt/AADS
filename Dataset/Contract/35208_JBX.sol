@@ -1,0 +1,1 @@
+contract JBX is owned

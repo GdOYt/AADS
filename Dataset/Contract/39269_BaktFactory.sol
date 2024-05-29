@@ -1,0 +1,1 @@
+contract BaktFactory is Factory

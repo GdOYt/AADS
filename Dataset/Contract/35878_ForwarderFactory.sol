@@ -1,0 +1,1 @@
+contract ForwarderFactory is Factory

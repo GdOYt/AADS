@@ -1,0 +1,2 @@
+contract AbstractSingularDTVToken is Token {
+}
