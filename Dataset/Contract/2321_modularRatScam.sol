@@ -1,1 +1,0 @@
-contract modularRatScam is RSEvents {}

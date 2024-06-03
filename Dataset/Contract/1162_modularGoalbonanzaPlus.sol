@@ -1,1 +1,0 @@
-contract modularGoalbonanzaPlus is RSEvents {}

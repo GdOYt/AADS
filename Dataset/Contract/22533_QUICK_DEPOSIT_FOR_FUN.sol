@@ -1,1 +1,0 @@
-contract QUICK_DEPOSIT_FOR_FUN    

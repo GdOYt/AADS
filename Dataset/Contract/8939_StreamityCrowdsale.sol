@@ -1,1 +1,0 @@
-contract StreamityCrowdsale is Pauseble

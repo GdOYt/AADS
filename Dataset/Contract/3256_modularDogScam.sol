@@ -1,1 +1,0 @@
-contract modularDogScam is LDEvents {}

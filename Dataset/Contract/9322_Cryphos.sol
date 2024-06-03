@@ -1,1 +1,0 @@
-contract Cryphos is StandardToken

@@ -1,3 +1,0 @@
-contract EEMTokenAbstract {
-  function unlock();
-}

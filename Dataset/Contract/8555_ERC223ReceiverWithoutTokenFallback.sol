@@ -1,2 +1,0 @@
-contract ERC223ReceiverWithoutTokenFallback {
-}

@@ -1,1 +1,0 @@
-contract Bakt is BaktInterface

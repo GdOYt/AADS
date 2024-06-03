@@ -1,1 +1,0 @@
-contract Kingdom is

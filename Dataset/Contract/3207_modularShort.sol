@@ -1,1 +1,0 @@
-contract modularShort is Suohaevents {}

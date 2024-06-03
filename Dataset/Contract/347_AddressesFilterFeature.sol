@@ -1,1 +1,0 @@
-contract AddressesFilterFeature is Ownable {}

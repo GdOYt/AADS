@@ -1,3 +1,0 @@
-contract ProxyStorage {
-  address currentContract;
-}

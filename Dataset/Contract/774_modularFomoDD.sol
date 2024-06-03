@@ -1,1 +1,0 @@
-contract modularFomoDD is FDDEvents {}

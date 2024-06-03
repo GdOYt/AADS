@@ -1,1 +1,0 @@
-contract E4LavaOptIn

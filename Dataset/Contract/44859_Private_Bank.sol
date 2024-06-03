@@ -1,1 +1,0 @@
-contract Private_Bank

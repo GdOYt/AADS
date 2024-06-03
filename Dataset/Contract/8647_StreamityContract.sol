@@ -1,1 +1,0 @@
-contract StreamityContract is ERC20Extending, StreamityCrowdsale

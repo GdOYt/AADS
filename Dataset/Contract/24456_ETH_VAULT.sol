@@ -1,1 +1,0 @@
-contract ETH_VAULT

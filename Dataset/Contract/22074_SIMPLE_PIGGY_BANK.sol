@@ -1,1 +1,0 @@
-contract SIMPLE_PIGGY_BANK

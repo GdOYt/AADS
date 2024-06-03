@@ -1,1 +1,0 @@
-contract modularGScam is GEvents {}

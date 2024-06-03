@@ -1,1 +1,0 @@
-contract DEDI_GI

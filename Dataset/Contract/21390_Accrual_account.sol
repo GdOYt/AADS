@@ -1,1 +1,0 @@
-contract Accrual_account

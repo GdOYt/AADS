@@ -1,1 +1,0 @@
-contract COIN_BOX   

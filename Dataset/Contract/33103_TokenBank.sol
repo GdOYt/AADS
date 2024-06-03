@@ -1,1 +1,0 @@
-contract TokenBank is Token
